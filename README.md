@@ -8,7 +8,7 @@ add the wrapper bundle in your composer.json as below:
 ```js
 "require": {
     ...
-    "database/MysqliToPdoBundle" : "dev-master",
+    "Seredos/database/MysqliToPdoBundle" : "dev-master",
 },
 "repositories" : [
                     ...
@@ -17,6 +17,7 @@ add the wrapper bundle in your composer.json as below:
                   			"url" : "https://github.com/Seredos/MysqliToPdoBundle"
                   		}],
 ```
+and execute the composer update command
 
 Usage
 =====
