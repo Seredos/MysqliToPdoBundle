@@ -1,0 +1,27 @@
+Humbug running test suite to generate logs and code coverage data...
+Humbug has completed the initial test run successfully.
+Tests: 147 Line Coverage: 100.00%
+Humbug is analysing source files...
+Mutation Testing is commencing on 4 files...
+(.: killed, M: escaped, S: uncovered, E: fatal error, T: timed out)
+............................................................ |   60 (3/4)
+..
+62 mutations were generated:
+      62 mutants were killed
+       0 mutants were not covered by tests
+       0 covered mutants were not detected
+       0 fatal errors were encountered
+       0 time outs were encountered
+
+Metrics:
+    Mutation Score Indicator (MSI): 100%
+    Mutation Code Coverage: 100%
+    Covered Code MSI: 100%
+
+Remember that some mutants will inevitably be harmless (i.e. false positives).
+Time: 1.56 minutes Memory: 6.75MB
+Humbug results are being logged as TEXT to: humbuglog.txt
+------
+Escapes
+------
+

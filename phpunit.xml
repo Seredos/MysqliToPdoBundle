@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- http://phpunit.de/manual/4.1/en/appendixes.configuration.html -->
+<phpunit backupGlobals="false"
+         colors="true">
+    <testsuites>
+        <testsuite name="Mysqli connection unit tests">
+            <file>Tests/mysqli/MysqliStatementTest.php</file>
+            <file>Tests/mysqli/MysqliConnectionTest.php</file>
+        </testsuite>
+        <testsuite name="Mysqli connection functional tests">
+            <file>Tests/mysqli/ConnectionFunctionalTest.php</file>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-text" target="coverage.txt" lowUpperBound="35"
+             highLowerBound="70"/>
+    </logging>
+    <filter>
+        <whitelist>
+            <directory>mysqli</directory>
+        </whitelist>
+    </filter>
+</phpunit>
