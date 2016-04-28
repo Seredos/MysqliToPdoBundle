@@ -121,3 +121,4 @@ to run the unit tests call
 phpunit --configuration [path/to/MysqliToPdoBundle]/phpunit.xml --verbose --bootstrap=[path/to/your/autoload.php]
 ```
 to run the functional tests, you must setup your database-configuration in the Tests/BaseDatabaseSetup.php and remove the $this->markTestSkipped() row.
+test
